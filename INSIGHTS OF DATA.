@@ -1,0 +1,17 @@
+1. Trip Characteristics
+Dominant Category: The vast majority of trips are for Business purposes, with only a small fraction dedicated to Personal travel.
+
+Primary Purposes: The most frequent reasons for rides are "Meeting" and "Meal/Entertain".
+
+Distance Metrics: Most rides are short-distance city trips, with the data for "MILES" showing a concentration of trips under 10 miles.
+
+2. Temporal Patterns (Time of Day)
+Peak Demand: By categorizing the START_DATE into time slots, the analysis shows that ride demand peaks during the Afternoon and Evening periods.
+
+Morning/Night Usage: There is a noticeable drop in ride frequency during late-night and very early morning hours.
+
+3. Geographic Hotspots
+Top Locations: The analysis identified a high concentration of trips starting and stopping in specific business hubs. Cary and Unknown Location appeared as high-frequency start and stop points.
+
+4. Data Quality Improvements
+Purpose Insights: Approximately 43% of the PURPOSE data was originally missing. By imputing these as "NOT" (Not Specified), the analysis was able to maintain the overall dataset size of 1,156 entries while still identifying clear trends in the known categories
